@@ -1,6 +1,6 @@
 {
-  "license": "MIT",
-
+  "name": "homework-api",
+  "license": "UNLICENSED",
   "scripts": {
      "watch": "tsc -w",
      "dev": "nodemon --inspect dist/index.js",

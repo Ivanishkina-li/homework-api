@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "home-api-video",
+    "name": "homework-api",
     "builds": [
         {
             "src": "src/index.ts",
