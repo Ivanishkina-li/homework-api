@@ -1,5 +1,4 @@
-import { Response } from "express";
-import express, { Request } from "express";
+import express, { Request, Response } from "express";
 
 
 const app = express();
@@ -8,7 +7,7 @@ const parserMiddleWare = express.json()
 
 app.use(parserMiddleWare)
 
-app.get('/', (req, res) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('this is video api')
 })
 
